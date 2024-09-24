@@ -8,6 +8,6 @@ module appli.todolistjx {
     requires org.kordamp.ikonli.javafx;
     requires org.kordamp.bootstrapfx.core;
 
-    opens appli.todolistjx to javafx.fxml;
-    exports appli.todolistjx;
+    exports appli.acceuil;
+    opens appli.acceuil to javafx.fxml;
 }
