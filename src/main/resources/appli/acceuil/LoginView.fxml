@@ -26,17 +26,16 @@
          <Font size="13.0" />
       </font>
    </Text>
-   <TextField />
+   <TextField fx:id="emailField"/>
    <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Votre mot de passe :" textAlignment="CENTER">
       <font>
          <Font size="13.0" />
       </font>
    </Text>
-   <PasswordField />
-   <Label fx:id="welcomeText" text="Label pour erreur" textFill="RED" />
+   <PasswordField fx:id="passwordField"/>
+   <Label fx:id="errorLabel" text="" textFill="RED" />
 
-    <Label fx:id="welcomeText" />
-   <Button mnemonicParsing="false" text="Connexion" />
+   <Button mnemonicParsing="false" text="Connexion" onAction="#connexion" />
    <Button mnemonicParsing="false" text="Mot de passe oublié" />
    <Button mnemonicParsing="false" text="Inscription" />
 </VBox>
